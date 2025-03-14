@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Posyandu</title>
+    <style>
+        body, h2, form, input, button, ul, li {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #EAC4D5;
+            padding: 15px 0;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            height: 40px; 
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: brown;
+            font-weight: bold;
+        }
+
+        .form-container {
+            background-color: #F0F8F4;
+            padding: 40px;
+            width: 70%;
+            margin: 40px auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h2 {
+            color: brown;
+            margin-bottom: 20px;
+            font-family: League Spartan;
+            font-size: 40px;
+        }
+        form input {
+            width: 90%;
+            padding: 15px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            width: 20%;
+            padding: 10px;
+            background-color: #809BCE;
+            color: #F5F5F5;
+            border: none;
+            border-radius: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 25px;
+            font-family: League Spartan;
+        }
+
+        footer {
+            background-color: #EAC4D5;
+            padding: 15px 0;
+            display: flex;
+            justify-content: flex-end; 
+            align-items: center;
+            padding-right: 20px;
+        }
+        .footer-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 15px;
+        }
+        .footer-logo {
+            height: 50px;
+            width: auto; 
+        }
+        .footer-container img {
+            height: 30px;
+        }
+        .social-icons img {
+            height: 24px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Logo E-Posyandu" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#">BERANDA</a></li>
+                    <li><a href="#">JADWAL</a></li>
+                    <li><a href="#">PENGADUAN</a></li>
+                    <li><a href="#">LOGIN</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="form-container">
+        <h2>Pendaftaran</h2>
+        <form>
+            <input type="text" placeholder="Nama Orang Tua">
+            <input type="text" placeholder="Nomor Handphone">
+            <input type="text" placeholder="Alamat Lengkap">
+            <input type="text" placeholder="Nama Lengkap Anak">
+            <input type="text" placeholder="Tempat/Tanggal Lahir Anak">
+            <input type="text" placeholder="NIK Anak">
+            <input type="text" placeholder="Berat Badan Anak">
+            <input type="text" placeholder="Tinggi Badan Anak">
+            <button type="submit" disabled>Daftar</button>
+        </form>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <img src="logo.png" alt="Logo" class="footer-logo">
+            <div class="social-icons">
+                <a href="#"><img src="ig.png" alt="Instagram"></a>
+                <a href="#"><img src="x.png" alt="Twitter"></a>
+                <a href="#"><img src="fb.png" alt="Facebook"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
